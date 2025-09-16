@@ -12,11 +12,11 @@ Open **anaconda prompt** and select a directory.
 git clone https://github.com/JamesCrichton/Laser_Capture_Annotation_Conversion.git
 
 # Build the necessary conda environment (this will be called "LMD_env")
-conda env create -f "LMD6_setup.yaml"
+conda env create -f "./Laser_Capture_Annotation_Conversion/LMD6_setup.yaml"
 
 ```
 
-Next time you use this repository, it can be activated using the command
+Activated the conda environment:
 ```
 conda activate LMD_env
 ```
@@ -26,6 +26,11 @@ Open this using the code below and follow the guidance in te notebook.
 Only the first cell should need editing to enter parameters for basic conversions. 
 
 ```
-Jupyter notebook "QuPath annotation geojson xml conversion for LMD.ipynb"
+Jupyter notebook "./Laser_Capture_Annotation_Conversion/QuPath annotation geojson xml conversion for LMD.ipynb"
 ```
 
+When you're finished, the environment can be deactivated using
+
+```
+conda deactivate
+```
