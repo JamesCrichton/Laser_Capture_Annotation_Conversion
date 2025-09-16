@@ -22,8 +22,8 @@ conda activate LMD_env
 ```
 
 Conversion of QuPath annotations from geojson format to xml is done in a Jupyter Notebook. 
-Open this using the code below and follow the guidance in te notebook. 
-Only the first cell should need editing to enter parameters for basic conversions. 
+Open this using the code below and follow the guidance in the notebook. 
+Only the first cell should need editing to enter parameters for basic conversions. This is initially setup with paths to the demo file "Tissue_test_annotations.geojson"
 
 ```
 Jupyter notebook "./Laser_Capture_Annotation_Conversion/QuPath annotation geojson xml conversion for LMD.ipynb"
