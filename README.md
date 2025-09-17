@@ -15,8 +15,8 @@ git clone https://github.com/JamesCrichton/Laser_Capture_Annotation_Conversion.g
 conda env create -f "./Laser_Capture_Annotation_Conversion/LMD6_setup.yaml"
 
 ```
-
-Activated the conda environment:
+# Using 
+After the conda environment has been reated (above), this just needs to be activated each time it's used:
 ```
 conda activate LMD_env
 ```
