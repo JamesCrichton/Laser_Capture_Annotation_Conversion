@@ -5,7 +5,7 @@ Uses the py-lmd python package and notebooks modified from **https://mannlabs.gi
 # Getting started
 If you don't have it already, download and install git (https://git-scm.com/downloads) and anaconda (https://www.anaconda.com/download). 
 
-Open **anaconda prompt**, set directory, then run:
+Open **anaconda powershell prompt**, set directory, then run:
 
 ```
 # Clone the github repo 
