@@ -12,7 +12,7 @@ Open **anaconda powershell prompt**, set directory, then run:
 git clone https://github.com/JamesCrichton/Laser_Capture_Annotation_Conversion.git
 
 # Build the necessary conda environment (this will be called "LMD_env")
-conda env create -f "./Laser_Capture_Annotation_Conversion/LMD6_setup.yaml"
+conda env create -f "./Laser_Capture_Annotation_Conversion/LMD6_setup.yml"
 
 ```
 # Using 
