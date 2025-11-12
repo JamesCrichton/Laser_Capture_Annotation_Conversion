@@ -1,22 +1,22 @@
 # Laser Capture Annotation Conversion
-Converts annotations to xml format for high throughput laser dissection by Leica LMD6. 
+Converts annotations from .geojson format (from QuPath) to xml format for high throughput laser dissection by Leica LMD6. 
 Uses the py-lmd python package and notebooks modified from **https://mannlabs.github.io/py-lmd/**. 
 
 # Getting started
 If you don't have it already, download and install git (https://git-scm.com/downloads) and anaconda (https://www.anaconda.com/download). 
 
-Open **anaconda prompt** and select a directory. 
+Open **anaconda powershell prompt**, set directory, then run:
 
 ```
 # Clone the github repo 
 git clone https://github.com/JamesCrichton/Laser_Capture_Annotation_Conversion.git
 
 # Build the necessary conda environment (this will be called "LMD_env")
-conda env create -f "./Laser_Capture_Annotation_Conversion/LMD6_setup.yaml"
+conda env create -f "./Laser_Capture_Annotation_Conversion/LMD6_setup.yml"
 
 ```
-
-Activated the conda environment:
+# Using 
+After the conda environment has been created (above), this just needs to be activated each time it's used:
 ```
 conda activate LMD_env
 ```
